@@ -4,7 +4,6 @@ module VectorTransformer
 include("LayerNormalization.jl")
 
 using LinearAlgebra
-import NNlib
 
 export ModelConfig, Pythia70ModelConfig, center
 
