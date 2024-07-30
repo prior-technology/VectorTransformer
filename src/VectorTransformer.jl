@@ -1,6 +1,8 @@
 "This is a sketch of a transformer implementation based on standard linear algebra operations."
 module VectorTransformer
 
+include("LayerNormalization.jl")
+
 using LinearAlgebra
 import NNlib
 
